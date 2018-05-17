@@ -30,5 +30,4 @@ public void setPrenom(String prenom){
 public void setAnneExperience(int a){
 	this.anneExperience=a; 
 }
-// Syntaxe de la methode ToString
 }
