@@ -3,7 +3,12 @@ public class Formateur{
 	private String prenm; 
 	private int matricule; 
 	
-	public Formateur{}
+	public Formateur(){}
+	// Contructeur avec deux parametres
+	public Formateur(String nom, String prenom){
+		this.nom=nom; 
+		this.prenom=prenom; 
+	}
 
 	// Ajout des Ascesseurs
 public String getNom(){
