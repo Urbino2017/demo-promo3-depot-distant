@@ -9,6 +9,12 @@ public class Formateur{
 		this.nom=nom; 
 		this.prenom=prenom; 
 	}
+	
+		// Contructeur avec 1 parametres
+	public Formateur(String nom){
+		this.nom=nom; 
+
+	}
 
 	// Ajout des Ascesseurs
 public String getNom(){
